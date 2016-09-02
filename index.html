@@ -4,15 +4,57 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Portfolio</title>
+    <meta name="description" content="Ryo Takahashi。システムを作る側に興味を持ち、現在、プログラムの勉強中。">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Application</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <dl>
+            <dt>Profile</dt>
+            <dd>高橋 諒　Ryo Takahashi</dd>
+            <dd>大阪府茨木市出身。</dd>
+            <dd>大阪の音楽大学をピアノ科で卒業。</dd>
+            <dd>その後、アパレル向けの販売管理システムを取り扱っている会社で営業として就職するも、システムを作る側に興味を持ち、現在、プログラムの勉強中。</dd>
+            <dt>Hobby</dt>
+            <dd>ピアノ / 野球観戦 / 映画鑑賞</dd>
+            <dt>CONTACT</dt>
+            <dd><a href="mailto:sjrt33m@ezweb.ne.jp" target="_blank">sjrt33m@ezweb.ne.jp</a></dd>
+            <dt>ADDRESS</dt>
+            <dd>奈良県在住</dd>
+            <dt>Link</dt>
+            <dd><a href="#" target="_blank">Twitter</a> / <a href="#" target="_blank">Facebook</a> / <a href="https://github.com/sjryotakahashi" target="_blank">Github</a></dd>
+            <dt></dt>
+            <dd id="logo"><img src="piano.jpg" alt="piano.jpg"></dd>
+        </dl>
+
+        <h2>Application</h2>
+        <ul>
+          <li>sample</li>
+          <li>sample</li>
+          <li>sample</li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Ryo Takahashi.</p>
+      </footer>
+    </div>
   </body>
 </html>

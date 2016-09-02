@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", YuGothic, "游ゴシック", "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #fff;
+  font-size: 15px;
+}
+
+span.red {
+  color: red;
+}
+
+header {
+  background-image: url("portfolio.jpg");
+  background-position: center center;
+  background-size: 750px;
+  background-repeat: no-repeat;
+  padding-bottom: 600px;
+}
+
+#logo {
+  padding: 20px 0;
+  text-align: right;
+}
+
+dl {
+  position: relative;
+}
+
+dl dt {
+  margin-top: 1em;
+  position: relative;
+  top: 21px;
+}
+
+dl dd {
+  position: relative;
+  z-index: 1;
+  margin-left: 90px;
+}
+
+#logo img{
+  width: 250px;
+  position: absolute;
+  top: -120px;
+  left: 700px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  #logo img{
+  display: none;
+  }
+}
+
+
+#logo h1 {
+  letter-spacing: 0.15em;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+
+nav {
+  margin: 0 0 30px 0;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px 20px 0;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul li a.selected {
+  color: #000;
+}
+
+.container {
+  max-width: none;
+  margin: -100px auto 0;
+  background-color: #fff;
+}
+
+section {
+  padding: 0px 20px;
+}
+
+section h2 {
+  margin: 0px 0 0 0;
+  padding: 80px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #00a;
+  text-shadow: 1px 1px 0px #000;
+  font-weight: bold;
+}
+
+  section dl {
+  padding: 10px 20px 10px 20px;
+  background-color: #eee;
+}
+  
+  section ul {
+  padding: 10px 20px 10px 20px;
+  background-color: #eee;
+}
+
+
+footer {
+  padding: 20px 0 0 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #fff;
+  color: #777;
+}
